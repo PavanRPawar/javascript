@@ -30,9 +30,21 @@ Equal to ==
 Equal to & type ===
 Not equal to !=
 Not equal to & type !==
->, >=, <, <=
+<, <=, >, >=
 ### Logical Operators
 Logical AND &&
 Logical OR ||
 Logical NOT !
 
+## Loops in JS
+for Loop
+while Loop
+do-while Loop
+for-of Loop - loop on string and array
+for-in Loop - loop on object
+
+## Template Literals in JS
+A way to have embedded expressions in strings
+### String Interpolation
+To create strings by doing substitution of placeholders
+`string text ${expression} string text`
