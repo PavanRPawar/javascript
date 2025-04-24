@@ -48,3 +48,25 @@ A way to have embedded expressions in strings
 ### String Interpolation
 To create strings by doing substitution of placeholders
 `string text ${expression} string text`
+
+## Arrays in JS
+Collections of items
+## Array Methods
+### push()
+add to end
+### pop()
+delete from end & return
+### toString()
+converts array to string
+### concat()
+joins multiple arrays & returns result
+### unshift()
+add to start
+### shift()
+delete from start & return
+### slice()
+returns a piece of the array
+slice( startIdx, endIdx )
+### splice()
+change original array (add, remove, replace)
+splice( startIdx, delCount, newEl1... )
