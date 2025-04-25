@@ -92,3 +92,26 @@ Eg: all even elements
 
 ## Reduce
 Performs some operations & reduces the array to a single value. It returns that single value.
+
+## Window Object
+The window object represents an open window in a browser. It is browser’s object (not JavaScript’s) & is automatically created by browser.
+It is a global object with lots of properties & methods.
+
+## What is DOM?
+When a web page is loaded, the browser creates a Document Object Model (DOM) of the page
+
+## DOM Manipulation
+### Selecting with id
+document.getElementById(“myId”)
+### Selecting with class
+document.getElementsByClassName(“myClass”)
+### Selecting with tag
+document.getElementsByTagName(“p”)
+### Query Selector
+document.querySelector(“#myId / .myClass / tag”)          //returns first element
+document.querySelectorAll(“#myId / .myClass / tag”)       //returns a NodeList
+### Properties
+tagName : returns tag for element nodes
+innerText : returns the text content of the element and all its children
+innerHTML : returns the plain text or HTML contents in the element
+textContent : returns textual content even for hidden elements

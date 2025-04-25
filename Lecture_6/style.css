@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+}
+
+#heading {
+    color: blue;
+    text-decoration: underline;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.box {
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: chartreuse;
+    color: black;
+    text-align: center;
+    margin: 5px;
+}
