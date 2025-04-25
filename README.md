@@ -115,3 +115,16 @@ tagName : returns tag for element nodes
 innerText : returns the text content of the element and all its children
 innerHTML : returns the plain text or HTML contents in the element
 textContent : returns textual content even for hidden elements
+### Attributes
+getAttribute( attr ) //to get the attribute value
+setAttribute( attr, value ) //to set the attribute value
+### Style
+node.style
+### Insert Elements
+let el = document.createElement(“div“)
+node.append( el ) //adds at the end of node (inside)
+node.prepend( el ) //adds at the start of node (inside)
+node.before( el ) //adds before the node (outside)
+node.after( el ) //adds after the node (outside)
+### Delete Element
+node.remove( ) //removes the node
