@@ -70,3 +70,25 @@ slice( startIdx, endIdx )
 ### splice()
 change original array (add, remove, replace)
 splice( startIdx, delCount, newEl1... )
+
+## Functions in JS
+Block of code that performs a specific task, can be invoked whenever needed
+
+## forEach Loop in Arrays
+arr.forEach( callBackFunction )
+CallbackFunction : Here, it is a function to execute for each element in the array
+*A callback is a function passed as an argument to another function.
+
+### Higher-order functions
+Higher-order functions in JavaScript are functions that can accept other functions as arguments or return functions as their results
+
+## Map
+Creates a new array with the results of some operation. The value its callback returns are used to form new array
+arr.map( callbackFnx( value, index, array ) )
+
+## Filter
+Creates a new array of elements that give true for a condition/filter.
+Eg: all even elements
+
+## Reduce
+Performs some operations & reduces the array to a single value. It returns that single value.
