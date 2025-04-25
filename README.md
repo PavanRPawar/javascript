@@ -128,3 +128,20 @@ node.before( el ) //adds before the node (outside)
 node.after( el ) //adds after the node (outside)
 ### Delete Element
 node.remove( ) //removes the node
+
+## Events in JS
+Events are fired to notify code of "interesting changes" that may affect code execution.
+The change in the state of an object is known as an Event
+- Mouse events (click, double click etc.)
+- Keyboard events (keypress, keyup, keydown)
+- Form events (submit etc.)
+- Print event & many more
+
+### Event Object
+It is a special object that has details about the event.
+All event handlers have access to the Event Object's properties and methods.
+
+### Event Listeners
+node.addEventListener( event, callback )
+node.removeEventListener( event, callback )
+*Note : the callback reference should be same to remove
