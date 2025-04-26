@@ -145,3 +145,25 @@ All event handlers have access to the Event Object's properties and methods.
 node.addEventListener( event, callback )
 node.removeEventListener( event, callback )
 *Note : the callback reference should be same to remove
+
+## Classes & Objects
+### Prototypes in JS
+JS objects have a special property called prototype.
+A javaScript object is an entity having state and behavior (properties and method).
+We can set prototype using _ _ proto _ _
+*If object & prototype have same method, object’s method will be used.
+
+### Classes in JS
+Class is a program-code template for creating objects.
+Those objects will have some state (variables) & some behaviour (functions) inside it.
+
+### Constructor( ) method is :
+automatically invoked by new
+initializes object
+
+### Inheritance
+inheritance is passing down properties & methods from parent class to child class.
+*If Child & Parent have same method, child’s method will be used. [Method Overriding]
+
+#### super Keyword
+The super keyword is used to call the constructor of its parent class to access the parent's properties and methods.
